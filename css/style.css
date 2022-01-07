@@ -893,6 +893,11 @@ stroke-dashoffset: -138px;
         justify-content: center;
         align-items: center;
     }
+    .slider-top .owl-nav button {
+    background: var(--mainColor) !important;
+    justify-content: center;
+    align-items: center;
+}
     .slider-top .owl-nav button span {
     width: 100%;
     height: 100%;
