@@ -522,7 +522,7 @@ a {
 .slider-top .owl-nav button {
     background: rgba(255, 255, 255, 0.2) !important;
     backdrop-filter: blur(3.52222px);
-    font-size: 31px !important;
+    font-size: 30px !important;
     width: 40px;
     height: 40px;
     margin: 10px !important;
@@ -530,13 +530,16 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    float: right;
-    color: #fff !important;
-    border-radius: 30px;
 }
 .slider-top .owl-nav button span {
     width: 100%;
     height: 100%;
+    background: var(--mainColor) !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    display: flex;
+    color: #fff !important;
 }
 .slider-top .comments {
     display: flex;
@@ -895,11 +898,6 @@ stroke-dashoffset: -138px;
         display: flex;
         left: 0;
         bottom: 0;
-        justify-content: center;
-        align-items: center;
-    }
-    .slider-top .owl-nav button{
-        background: var(--mainColor) !important;
         justify-content: center;
         align-items: center;
     }
