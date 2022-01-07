@@ -895,9 +895,13 @@ stroke-dashoffset: -138px;
         display: flex;
         left: 0;
         bottom: 0;
+        justify-content: center;
+        align-items: center;
     }
     .slider-top .owl-nav button{
         background: var(--mainColor) !important;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media (min-width:480px){
